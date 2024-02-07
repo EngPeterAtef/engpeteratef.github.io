@@ -127,6 +127,10 @@ section {
 .experience .content{
     flex-direction: column;
 }
+.projects-content{
+    overflow: auto;
+    white-space: nowrap;
+}
 .card {
     background-color: #fff;
     width: 22em;
@@ -158,14 +162,14 @@ section {
     margin: 10px;
 }
 
-/* .projects {
+.certificate {
     background-color: #000016;
-} */
+}
 .experience {
     background-color: #000016;
 }
 
-.projects .content{
+.certificate .content{
     margin-top: 30px;
 }
 /* .experience .content{
@@ -176,12 +180,29 @@ section {
     background-color: #181838;
     border: 1px solid #fff;
     min-height: 14em;
-    width: 23em;
+    width: 30em;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
     transition: 0.7s ease;
     color: #fff;
+    display: inline-block;
+}
+.certificate-card {
+    background-color: #181838;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 50em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    color: #fff;
+    display: inline-block;
+}
+.certificate-card ul{
+    list-style: square;
+    padding: 1em;
 }
 .exp-card {
     background-color: #fff;
@@ -196,6 +217,9 @@ section {
 }
 
 .project-card:hover {
+   transform: scale(1.1);
+}
+.certificate-card:hover {
    transform: scale(1.1);
 }
 .exp-card:hover {
@@ -226,10 +250,34 @@ section {
     font-weight: 800;
     margin-top: 10px;
 }
+.certificate-card:hover .certificate-image {
+    opacity: 0.9;
+ }
+
+.certificate-image img{
+    width: 100%
+}
+
+.certificate-info {
+    padding: 1em;
+}
+
+.certificate-category {
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.certificate-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
 
 .more-details {
     text-decoration: none;
-    color: #3a6cf4;
+    color: #4876f5;
 }
 .exp-title{
     color: #3a6cf4;
@@ -350,3 +398,4 @@ section {
     width: 6em;
     height: 4em;
 }
+
