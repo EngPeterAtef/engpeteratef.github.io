@@ -77,7 +77,11 @@ section {
     margin-top: 10px;
     margin-bottom: 30px;
 }
-
+.main ul{
+    color: #fff;
+    font-size: 1em;
+    margin: 1em 1em 1em 2em;
+}
 .main-btn {
     color: #fff;
     background-color: #3a6cf4;
@@ -120,7 +124,9 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+.experience .content{
+    flex-direction: column;
+}
 .card {
     background-color: #fff;
     width: 22em;
@@ -152,16 +158,22 @@ section {
     margin: 10px;
 }
 
-.projects {
+/* .projects {
+    background-color: #000016;
+} */
+.experience {
     background-color: #000016;
 }
 
 .projects .content{
     margin-top: 30px;
 }
+/* .experience .content{
+    margin: 30px;
+} */
 
 .project-card {
-    background-color: #fff;
+    background-color: #181838;
     border: 1px solid #fff;
     min-height: 14em;
     width: 23em;
@@ -169,9 +181,24 @@ section {
     border-radius: 10px;
     margin: 20px;
     transition: 0.7s ease;
+    color: #fff;
+}
+.exp-card {
+    background-color: #fff;
+    border: 5px solid #3d3d98;
+    /* min-height: 14em; */
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    padding: 2em;
 }
 
 .project-card:hover {
+   transform: scale(1.1);
+}
+.exp-card:hover {
    transform: scale(1.1);
 }
 
@@ -189,7 +216,7 @@ section {
 
 .project-category {
     font-size: 0.8em;
-    color: #000;
+    color: #fff;
 }
 
 .project-title {
@@ -204,7 +231,30 @@ section {
     text-decoration: none;
     color: #3a6cf4;
 }
+.exp-title{
+    color: #3a6cf4;
+    display: flex;
+    justify-content: space-between;
+}
+.exp-title div{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
 
+.company-name{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #3a6cf4;
+}
+.exp-description{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #000;
+}
+.exp-description li{
+    margin: 0.5em;
+}
 .more-details:hover {
     color: #601cfc;
 }
