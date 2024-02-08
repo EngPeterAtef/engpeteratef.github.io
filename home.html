@@ -16,10 +16,14 @@
     <header>
       <a href="#" class="logo">Peter</a>
       <nav class="navigation">
+        <a
+          href="https://github.com/EngPeterAtef/Peter_Atef/blob/main/Peter_Atef.pdf"
+          target="_blank"
+          >CV</a
+        >
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
-        <a href="#honors">Honors</a>
         <a href="#certificate">Certificates</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -357,79 +361,288 @@
     </section>
     <!-- projects -->
     <section class="projects" id="projects">
-      <h2 class="title">Projects</h2>
-      <div class="projects-content">
+      <h2 class="title">Machine Learning Projects</h2>
+      <div class="content">
         <div class="project-card">
-          <div class="project-image">
-            <img src="./images/work1.jpg" />
-          </div>
           <div class="project-info">
-            <p class="project-category">Script Writing & Video Production</p>
+            <p class="project-category">
+              NLP, machine learning, Python, PyTorch
+            </p>
             <strong class="project-title">
-              <span>Dev Books</span>
-              <a href="#" class="more-details">More details</a>
+              <span>Arabic Text Diacritization model</span>
+              <a
+                href="https://github.com/Senior-Team-2023/Arabic_text_diacritization_Project.git"
+                class="more-details"
+                target="_blank"
+                >Project Link</a
+              >
             </strong>
           </div>
+          <ul>
+            <li>
+              One of the aspects that differentiate Arabic is diacritics.
+              Diacritics are short vowels with a constant length that are spoken
+              but usually omitted from Arabic text as Arabic speakers usually
+              can infer it easily. The same word in the Arabic language can have
+              different meanings and different pronunciations based on how it is
+              diacritized. Getting back these diacritics in the text is very
+              useful in many NLP systems like text-to-speech (TTS) systems and
+              machine translation as diacritics remove ambiguity.
+            </li>
+            <li>
+              We used two approaches to solve the problem: the first is to use a
+              recurrent neural network (Bi-LSTM) with an embedding layer and the
+              second approach CBHG architecture. You can find all the details
+              about the project in the project repo on GitHub.
+            </li>
+          </ul>
         </div>
         <div class="project-card">
-          <div class="project-image">
-            <img src="./images/work2.jpg" />
-          </div>
           <div class="project-info">
-            <p class="project-category">Script Writing & Video Production</p>
+            <p class="project-category">
+              Image processing, OpenCV, machine learning, Python, Threading
+            </p>
             <strong class="project-title">
-              <span>Dev Books</span>
-              <a href="#" class="more-details">More details</a>
+              <span>Virtual Calculator</span>
+              <a
+                href="https://github.com/EngPeterAtef/Virtual_Calculator.git"
+                class="more-details"
+                target="_blank"
+                >Project Link</a
+              >
             </strong>
           </div>
+          <ul>
+            <li>
+              Machine learning project to build a hand-detection project to
+              detect the numbers and the arithmetic operations.
+            </li>
+            <li>
+              We used SVM as a machine learning model and we got an accuracy of
+              90 percent.
+            </li>
+          </ul>
         </div>
         <div class="project-card">
-          <div class="project-image">
-            <img src="./images/work3.jpg" />
-          </div>
           <div class="project-info">
-            <p class="project-category">Script Writing & Video Production</p>
+            <p class="project-category">
+              Image processing, OpenCV, machine learning, Python
+            </p>
             <strong class="project-title">
-              <span>Dev Books</span>
-              <a href="#" class="more-details">More details</a>
+              <span>Hand Gesture Recognition</span>
+              <a
+                href="https://github.com/bemoierian/Hand-Gesture-Recognition.git"
+                class="more-details"
+                target="_blank"
+                >Project Link</a
+              >
             </strong>
           </div>
+          <ul>
+            <li>
+              A machine learning model to detect the numbers constructed with a
+              hand with pre-processing on the image to enhance the accuracy
+              which is the most challenging part because the data set is so
+              noisy. The pre-processing part is to extract the hand from the
+              image with maximum accuracy. In the feature extraction part, we
+              use HOG and LBP. Also, we use PCA for feature extraction. We use
+              SVM as our machine learning model.
+            </li>
+            <li>
+              pre-processing which includes extracting the hand from the image
+              using GMM and K-means. Also, I implemented the LBP algorithm in
+              the feature extraction module.
+            </li>
+          </ul>
         </div>
         <div class="project-card">
-          <div class="project-image">
-            <img src="./images/work4.jpg" />
-          </div>
           <div class="project-info">
-            <p class="project-category">Script Writing & Video Production</p>
+            <p class="project-category">Pandas, OpenCV, Python.</p>
             <strong class="project-title">
-              <span>Dev Books</span>
-              <a href="#" class="more-details">More details</a>
+              <span>Color detector</span>
+              <a
+                href="https://github.com/EngPeterAtef/ColorDetector.git"
+                class="more-details"
+                target="_blank"
+                >Project Link</a
+              >
             </strong>
           </div>
+          <ul>
+            <li>
+              I built a color detector for videos and images program using
+              OpenCV and Pandas.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="hr" />
+      <br />
+      <h2 class="title">Software Development Projects</h2>
+      <div class="content">
+        <div class="project-card">
+          <div class="project-info">
+            <p class="project-category">
+              Unity, Agile, Python, C sharp, machine learning, Github
+            </p>
+            <strong class="project-title">
+              <span>KidAI</span>
+              <a href="#" class="more-details" target="_blank"
+                >In development</a
+              >
+            </strong>
+          </div>
+          <ul>
+            <li>
+              This is the graduation project that I'm currently working on which
+              is a tool that teaches machine learning to kids from 8 to 18 years
+              old using games!!
+            </li>
+            <li>
+              The idea is to go through the machine learning pipeline starting
+              from creating the data set and going through the training and
+              validation process then testing the machine learning model inside
+              the game environment.
+            </li>
+          </ul>
         </div>
         <div class="project-card">
-          <div class="project-image">
-            <img src="./images/work5.jpg" />
-          </div>
           <div class="project-info">
-            <p class="project-category">Script Writing & Video Production</p>
+            <p class="project-category">Flutter, Dart, Bloc, Agile, Github</p>
             <strong class="project-title">
-              <span>Dev Books</span>
-              <a href="#" class="more-details">More details</a>
+              <span>Reddit Clone</span>
+              <a
+                href="https://github.com/RedditxClone/Cross-Platform.git"
+                class="more-details"
+                target="_blank"
+                >Project Link</a
+              >
             </strong>
           </div>
+          <ul>
+            <li>
+              Participated in developing the front end of a mobile application
+              for Android using Dart and the Flutter framework.
+            </li>
+            <li>
+              We were a team of twenty members containing backend,
+              cross-platform, and DevOps sub-teams.
+            </li>
+            <li>
+              Collaborated with team members using version control systems such
+              as Git to organize modifications and assign tasks.Collaborated
+              with team members using version control systems such as Git to
+              organize modifications and assign tasks.
+            </li>
+          </ul>
         </div>
         <div class="project-card">
-          <div class="project-image">
-            <img src="./images/work6.jpg" />
-          </div>
           <div class="project-info">
-            <p class="project-category">Script Writing & Video Production</p>
+            <p class="project-category">
+              React-Native, JS, Context, Redux, Axios, Async-Storage, Github,
+              Expo
+            </p>
             <strong class="project-title">
-              <span>Internet</span>
-              <a href="#" class="more-details">More details</a>
+              <span>E-Commerce System</span>
+              <a
+                href="https://github.com/EngPeterAtef/OnlineStore_ReactNative.git"
+                class="more-details"
+                target="_blank"
+                >Project Link</a
+              >
             </strong>
           </div>
+          <ul>
+            <li>
+              I built an online Store that gets the product using API and gives
+              you the option to add and remove them to your cart to buy them.
+            </li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <p class="project-category">
+              Java, OOP, Data Structures, Threading, MongoDB
+            </p>
+            <strong class="project-title">
+              <span>Search Engine</span>
+              <a
+                href="https://github.com/EngPeterAtef/SearchEngine.git"
+                class="more-details"
+                target="_blank"
+                >Project Link</a
+              >
+            </strong>
+          </div>
+          <ul>
+            <li>
+              Build a Search Engine using mainly three components Crawler,
+              Indexer, and Ranker
+            </li>
+            <li>
+              My Role: I worked on the Indexer which is a pre-processing before
+              storing the data in the DB, and I participated in building the
+              website
+            </li>
+            <li>
+              we got first place among all teams in this project because of the
+              high performance of the code and how it manages the resources.
+            </li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <p class="project-category">
+                C-sharp, SQL, MySQL, Database
+            </p>
+            <strong class="project-title">
+              <span>Hospital management</span>
+              <a
+                href="https://github.com/EngPeterAtef/Hospital.git"
+                class="more-details"
+                target="_blank"
+                >Project Link</a
+              >
+            </strong>
+          </div>
+          <ul>
+            <li>
+                Building a Hospital Windows application system.
+            </li>
+            <li>
+                System capabilities: Handle multi-users, Handle the privileges of each user, Make appointments for the patient, and Keep
+                track of the patient's medical history.                
+            </li>
+            <li>
+                My Role: I participated in building the DB scheme, I built screens like doctor, nurse, and patient screens.
+            </li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <p class="project-category">
+                python, Algorithms, Data Structure
+            </p>
+            <strong class="project-title">
+              <span>Vector Database Indexer</span>
+              <a
+                href="https://github.com/Senior-Team-2023/vector-database-index"
+                class="more-details"
+                target="_blank"
+                >Project Link</a
+              >
+            </strong>
+          </div>
+          <ul>
+            <li>
+                Main function is to search and retrieve the most relevant vectors concerning the input query.
+            </li>
+            <li>
+                The challenge is to build an indexer that optimized in memory and time and achieved that using vectorized techniques
+                and algorithms like IVF, LSH.
+            </li>
+          </ul>
         </div>
       </div>
     </section>
