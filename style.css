@@ -403,11 +403,6 @@ section {
     align-items: center;
     justify-content: center;
   }
-  .main {
-    width: 100%;
-    background: none;
-    background-color: #010017;
-  }
   footer {
     display: flex;
     flex-direction: column;
@@ -418,6 +413,10 @@ section {
 @media (max-width: 300px) {
   body {
     font-size: 10px;
+  }
+  .main {
+    background: none;
+    background-color: #010017;
   }
   .navigation a {
     padding-left: 2px;
