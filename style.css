@@ -381,6 +381,11 @@ section {
   }
   .main {
     width: 100%;
+    background: url(images/back4.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #010017;
   }
   .main-content h2 {
     font-size: 0.8em;
@@ -394,16 +399,14 @@ section {
   }
 }
 @media (max-width: 550px) {
-  .main {
-    background: url(images/back4.png) no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: #010017;
-  }
   .content {
     align-items: center;
     justify-content: center;
+  }
+  .main {
+    width: 100%;
+    background: none;
+    background-color: #010017;
   }
   footer {
     display: flex;
