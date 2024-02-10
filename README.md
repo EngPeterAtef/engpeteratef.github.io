@@ -1,24 +1,27 @@
-## Portfolio
-In this project you can find all the detials about my career:
+<h2> Portfolio</h2>
+
+<p>In this project you can find all the detials about my career:</p>
+
 <ol>
   <li>
     Skills
   </li>
-  
-  <li>
+
+<li>
     Experience
-  </li>
-  
-  <li>
+</li>
+
+<li>
     Projects
   </li>
-  
-  <li>
+
+<li>
     Certificates
   </li>
-  
-  <li>
+
+<li>
     Contacts
   </li>
 </ol>
-you can check it out uisng this <a href="https://engpeteratef.github.io/" target="_blank">link</a> 
+
+<p>you can check it out uisng this <a href="https://engpeteratef.github.io/" target="_blank">link</a></p>
