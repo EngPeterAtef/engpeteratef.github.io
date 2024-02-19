@@ -346,7 +346,11 @@ a {
   font-size: 1.3em;
   padding: 0 12px 0 0;
 }
-
+.positions {
+  font-weight: bold;
+  font-size: 2em;
+  color: #fff;
+}
 @media (max-width: 1023px) {
   header {
     padding: 12px 20px;
@@ -377,13 +381,16 @@ a {
     align-items: center;
   }
 }
-
-@media (max-width: 641px) {
+@media (max-width: 900px) {
   body {
-    font-size: 12px;
+    font-size: 0.95em;
+  }
+}
+@media (max-width: 700px) {
+  body {
+    font-size: 0.75em;
   }
   .main {
-    width: 100%;
     background: url(images/back4.png) no-repeat;
     background-size: contain;
     background-position: center;
@@ -401,7 +408,26 @@ a {
     padding-left: 5px;
   }
 }
+@media (max-width: 628px) {
+  body {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 592px) {
+  body {
+    font-size: 0.69em;
+  }
+}
 @media (max-width: 550px) {
+  body {
+    font-size: 0.65em;
+  }
+  /* .positions {
+    font-size: 1.25em;
+  }
+  .main {
+    font-size: 2em;
+  } */
   .content {
     align-items: center;
     justify-content: center;
@@ -414,9 +440,6 @@ a {
 }
 
 @media (max-width: 300px) {
-  body {
-    font-size: 10px;
-  }
   .main {
     background: none;
     background-color: #010017;
@@ -425,7 +448,6 @@ a {
     padding-left: 2px;
   }
 }
-
 .programming-lang {
   width: 6em;
   height: 4em;
