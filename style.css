@@ -105,8 +105,19 @@ section {
   font-size: 1.7em;
   padding-right: 30px;
 }
-.upwork {
+/* .upwork {
   font-size: 0.75em;
+} */
+.upwork_icon{
+  width: 1em;
+  height: 1em;
+  /* margin-top: 30px; */
+}
+.upwork_icon_div{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
 }
 a {
   text-decoration: none;
