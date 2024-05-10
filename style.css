@@ -222,7 +222,7 @@ a {
 .certificate-card {
   background-color: #181838;
   border: 1px solid #fff;
-  min-height: 14em;
+  /* min-height: 14em; */
   width: 50em;
   overflow: hidden;
   border-radius: 10px;
