@@ -1,29 +1,17 @@
-<h2> Portfolio</h2>
+<h2>Portfolio</h2>
 
 ![image](https://github.com/EngPeterAtef/engpeteratef.github.io/assets/75852529/f762b6cd-74bf-4033-a413-41edaa97fc47)
 
-<p>In this project you can find all the details about my career:</p>
+<p>My personal portfolio as an AI Engineer. It is a single static page (HTML and CSS) hosted on GitHub Pages and covers:</p>
 
 <ol>
-  <li>
-    Skills
-  </li>
-
-<li>
-    Experience
-</li>
-
-<li>
-    Projects
-  </li>
-
-<li>
-    Certificates
-  </li>
-
-<li>
-    Contacts
-  </li>
+  <li>Skills</li>
+  <li>Experience (Wego, Ejada Systems, VNCR Media Group and earlier roles and training)</li>
+  <li>Projects: professional AI projects with detailed write-ups, academic and personal AI projects, and software development projects</li>
+  <li>Certificates</li>
+  <li>Contact</li>
 </ol>
 
-<p>you can check it out uisng this <a href="https://engpeteratef.github.io/" target="_blank">link</a></p>
+<p>The latest CV is in <code>cv/Peter_Atef_AI_Engineer_CV.pdf</code> and is linked from the navigation bar.</p>
+
+<p>Live site: <a href="https://engpeteratef.github.io/" target="_blank">engpeteratef.github.io</a></p>
